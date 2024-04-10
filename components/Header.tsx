@@ -9,7 +9,7 @@ function Header() {
     <header>
       <div className="flex flex-col md:flex-row items-center p-5 bg-gray-500/10 rounded-b-2xl">
         <div
-            className="absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-blue-400 to-[#c84349] -z-50 rounded-md filter-blur-3xl opacity-50"
+            className="absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-blue-400 to-[#c84349] -z-50 rounded-md filter blur-3xl opacity-50"
         />
         <Image
           src="/logo-transparent-png-2.png"

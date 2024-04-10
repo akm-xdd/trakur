@@ -1,3 +1,4 @@
+import Board from "@/components/Board";
 import Header from "@/components/Header";
 import Image from "next/image";
 
@@ -7,7 +8,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Board */}
-      <h1>Trakur - A simple yet powerful Trello Clone!</h1>
+      <Board />
     </main>
   );
 }
